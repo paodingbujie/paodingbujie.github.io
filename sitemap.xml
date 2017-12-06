@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2017/12/03/fff/bbb/</loc>
+    <loc>http://yoursite.com/note/hexo/hexo_github/</loc>
     
-    <lastmod>2017-12-04T02:45:20.950Z</lastmod>
+    <lastmod>2017-12-06T19:14:19.496Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2017/12/03/aaa/</loc>
+    <loc>http://yoursite.com/note/welcome/</loc>
     
-    <lastmod>2017-12-04T02:44:45.137Z</lastmod>
+    <lastmod>2017-12-05T20:08:15.352Z</lastmod>
     
   </url>
   
@@ -33,13 +33,6 @@
     <loc>http://yoursite.com/categories/index.html</loc>
     
     <lastmod>2017-12-04T01:46:32.333Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/12/03/hello-world/</loc>
-    
-    <lastmod>2017-12-04T01:29:59.143Z</lastmod>
     
   </url>
   
