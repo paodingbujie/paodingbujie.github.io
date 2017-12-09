@@ -1,32 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
-  <url>
-    <loc>https://paodingbujie.github.io/note/hexo/hexo_github_blog/</loc>
-    
-    <lastmod>2017-12-08T21:38:13.980Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://paodingbujie.github.io/about/index.html</loc>
-    
-    <lastmod>2017-12-07T19:31:53.035Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://paodingbujie.github.io/tags/index.html</loc>
-    
-    <lastmod>2017-12-04T01:46:32.337Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://paodingbujie.github.io/categories/index.html</loc>
-    
-    <lastmod>2017-12-04T01:46:32.333Z</lastmod>
-    
-  </url>
-  
 </urlset>
