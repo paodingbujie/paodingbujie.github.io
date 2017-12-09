@@ -19,7 +19,7 @@
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://wx1.sinaimg.cn/mw690/0070SULVgy1fm9093scd3j3075092mx6.jpg">
 <meta property="og:image" content="http://wx1.sinaimg.cn/mw690/0070SULVgy1fm9t1eo7o5j30z80p411e.jpg">
-<meta property="og:updated_time" content="2017-12-08T21:38:13.980Z">
+<meta property="og:updated_time" content="2017-12-09T20:12:22.340Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo加GitHub快速搭建个人免费博客详细步骤">
 <meta name="twitter:description" content="简介 Hexo： 一个利用Node.js开发，支持Markdown的开源静态博客生成器。它能帮您把markdown的md文件转成漂亮的静态html文件。  GitHub Pages: GitHub推出的一个免费静态页面托管服务。它能让您把静态站点部署到GitHub上，并提供github.io的域名。   软件安装（Windows） Node.js: Hexo依赖Node.js, 所以先安装它。 安">
@@ -308,6 +308,11 @@ var _hmt = _hmt || [];
         
         
             
+                <div id="toc" class="toc-article">
+                <strong class="toc-title">Catalogue</strong>
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#简介"><span class="toc-number">1.</span> <span class="toc-text">简介</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#软件安装（Windows）"><span class="toc-number">2.</span> <span class="toc-text">软件安装（Windows）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Hexo更换主题和设置"><span class="toc-number">3.</span> <span class="toc-text">Hexo更换主题和设置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#站点部署"><span class="toc-number">4.</span> <span class="toc-text">站点部署</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#登录GitHub创建仓库"><span class="toc-number">4.1.</span> <span class="toc-text">登录GitHub创建仓库</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#把本地静态文件部署到GitHub"><span class="toc-number">4.2.</span> <span class="toc-text">把本地静态文件部署到GitHub</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Hexo常用命令"><span class="toc-number">5.</span> <span class="toc-text">Hexo常用命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#博客常用功能设置"><span class="toc-number">6.</span> <span class="toc-text">博客常用功能设置</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#评论功能"><span class="toc-number">6.1.</span> <span class="toc-text">评论功能</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#网站访问统计"><span class="toc-number">6.2.</span> <span class="toc-text">网站访问统计</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#添加打赏功能"><span class="toc-number">6.3.</span> <span class="toc-text">添加打赏功能</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#订阅微信公众号"><span class="toc-number">6.4.</span> <span class="toc-text">订阅微信公众号</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#参考"><span class="toc-number">7.</span> <span class="toc-text">参考</span></a></li></ol>
+                </div>
+            
         
         
             <h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><ul>
@@ -327,13 +332,54 @@ var _hmt = _hmt || [];
 <p><img src="http://wx1.sinaimg.cn/mw690/0070SULVgy1fm9093scd3j3075092mx6.jpg" alt=""></p>
 <p>接下来我们访问<a href="https://hexo.io/" rel="external nofollow noopener noreferrer" target="_blank">Hexo官网</a>, 在首页下方，我们可以找到安装步骤如下。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br><span class="line">$ hexo init blog</span><br><span class="line">$ <span class="built_in">cd</span> blog</span><br><span class="line">$ npm install</span><br><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>接下来就在刚才右键打开的<strong>Git Bash</strong>中，一条一条输入上面指令即可。如果速度慢，可以挂个代理。最后一个命令<strong>hexo server</strong>就是帮你启动本地服务。好了，现在各位道友就能在本地看到自己的博客页面了，打开浏览器输入：<strong><a href="http://localhost:4000/" rel="external nofollow noopener noreferrer" target="_blank">http://localhost:4000/</a></strong> 回车，就能看到效果了。</p>
+<p>接下来就在刚才右键打开的<strong>Git Bash</strong>中，一条一条输入上面指令即可。如果速度慢，可以挂个代理。好了，现在各位道友就能在本地看到自己的博客页面了，打开浏览器输入：<strong><a href="http://localhost:4000/" rel="external nofollow noopener noreferrer" target="_blank">http://localhost:4000/</a></strong> 回车，就能看到效果了。</p>
 <p><img src="http://wx1.sinaimg.cn/mw690/0070SULVgy1fm9t1eo7o5j30z80p411e.jpg" alt=""></p>
+<h2 id="Hexo更换主题和设置"><a href="#Hexo更换主题和设置" class="headerlink" title="Hexo更换主题和设置"></a>Hexo更换主题和设置</h2><p>Hexo默认使用的是landscape主题,可以到Hexo官网的<a href="https://hexo.io/themes/" rel="external nofollow noopener noreferrer" target="_blank">主题</a>，选择喜欢的进行更换。这里以<a href="https://github.com/iissnan/hexo-theme-next" rel="external nofollow noopener noreferrer" target="_blank">NexT</a>为例,先Ctrl+C停止Hexo服务,然后在<strong>Git Bash</strong>中输入如下命令（注意当前bash目录为E:\Hexo\blog）：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/iissnan/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure></p>
+<p>完成以后要修改两个配置文件:</p>
 <ul>
-<li>Hexo主题： Hexo默认使用的是landscape主题，若道友不满意，立马换。到Hexo官网的<a href="https://hexo.io/themes/" rel="external nofollow noopener noreferrer" target="_blank">主题</a>下面，看哪个喜欢就挑哪个。这里庖哥就以比较流行的NexT主题为例，其他主题的安装都差不多。我们先在主题页面中找到NexT,点击<a href="https://github.com/iissnan/hexo-theme-next" rel="external nofollow noopener noreferrer" target="_blank">NexT</a>,直接来到NexT的GitHub,页面往下找到<strong>Installation</strong>， 这里看到有很多种安装方法，我们选择v5.1.2版本进行clone,在刚才打开的<strong>Git Bash</strong>中输入如下命令：<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> --branch v5.1.2 https://github.com/iissnan/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
+<li>站点配置(E:\Hexo\blog_config.yml):<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: next <span class="comment"># 修改为NexT主题</span></span><br></pre></td></tr></table></figure>
 </li>
 </ul>
-<p>查看一下，在<strong>E:\Hexo\blog\themes</strong>下是不是多了一个next文件夹，</p>
+<ul>
+<li>主题配置（E:\Hexo\blog\themes\next_config.yml）<br>NexT的配置文档非常详细，请访问<a href="http://theme-next.iissnan.com/getting-started.html" rel="external nofollow noopener noreferrer" target="_blank">NexT官网</a>,根据实际需要进行配置。</li>
+</ul>
+<h2 id="站点部署"><a href="#站点部署" class="headerlink" title="站点部署"></a>站点部署</h2><h3 id="登录GitHub创建仓库"><a href="#登录GitHub创建仓库" class="headerlink" title="登录GitHub创建仓库"></a>登录GitHub创建仓库</h3><p>如果还没有GitHub的同学可以先<a href="https://github.com/" rel="external nofollow noopener noreferrer" target="_blank">申请</a>,然后登录。比如你的git账号为<strong>tobiasahlin</strong>,新建名为<strong>tobiasahlin.github.io</strong>的仓库。踩坑提醒：仓库名必须严格按照上面格式，否则以后用浏览器访问tobiasahlin.github.io时，将是404错误。</p>
+<h3 id="把本地静态文件部署到GitHub"><a href="#把本地静态文件部署到GitHub" class="headerlink" title="把本地静态文件部署到GitHub"></a>把本地静态文件部署到GitHub</h3><ol>
+<li><p>安装hexo-deployer-git插件，在Bash中输入：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>为GitHub添加SSH Key（SSH推送文件免密码登录）</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C <span class="string">"youremail@example.com"</span></span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>然后一直回车即可，最后打开<strong>C:\Users\Administrator.ssh\id_rsa.pub</strong>文件，复制所有文件内容。登录GitHub，在settings–&gt;SSH and GPG keys–&gt;New SSH key,在title中给你的key取个名，在Key中，把刚才复制的文件内容拷贝过来，保存。</p>
+<ol>
+<li><p>修改站点配置(E:\Hexo\blog_config.yml)<br>找到“deploy”字段，修改为</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: git@github.com:tobiasahlin/tobiasahlin.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>提交本地文件</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g <span class="comment"># 提交文件前先生成一下静态文件</span></span><br><span class="line">hexo d <span class="comment"># 提交文件到GitHub仓库</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>浏览器中输入<strong>tobiasahlin.github.io</strong>，就能看到博客啦（可能要等10分钟，GitHub需要时间处理）</p>
+</li>
+</ol>
+<h2 id="Hexo常用命令"><a href="#Hexo常用命令" class="headerlink" title="Hexo常用命令"></a>Hexo常用命令</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">hexo g <span class="comment"># 等于hexo generate 每次有内容更新后，都要生成一下静态文件</span></span><br><span class="line">hexo s <span class="comment"># 等于hexo server 启动本地服务</span></span><br><span class="line">hexo d <span class="comment"># 等于hexo deploy提交文件到GitHub仓库</span></span><br><span class="line">hexo clean <span class="comment"># 删除db.json和public文件夹，之后hexo g可重新生成</span></span><br><span class="line">hexo init [folder] <span class="comment"># 新建一个网站。如果没有设置文件夹，默认在目前的文件夹建立网站。</span></span><br><span class="line">hexo new [layout] &lt;title&gt; <span class="comment"># 新建一篇文章。没有layout,将用默认设置</span></span><br></pre></td></tr></table></figure>
+<h2 id="博客常用功能设置"><a href="#博客常用功能设置" class="headerlink" title="博客常用功能设置"></a>博客常用功能设置</h2><p>打开主题配置（E:\Hexo\blog\themes\next_config.yml）</p>
+<h3 id="评论功能"><a href="#评论功能" class="headerlink" title="评论功能"></a>评论功能</h3><p>找到<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">disqus:</span><br><span class="line">  <span class="built_in">enable</span>: <span class="literal">false</span></span><br><span class="line">  shortname:</span><br><span class="line">  count: <span class="literal">true</span></span><br><span class="line"></span><br><span class="line">changyan: </span><br><span class="line">  <span class="built_in">enable</span>: <span class="literal">false</span></span><br><span class="line">  appid:</span><br><span class="line">  appkey:</span><br></pre></td></tr></table></figure></p>
+<p>同学可以自行选择disqus还是畅言，到他们官网注册以后可以把相关信息填入即可。</p>
+<h3 id="网站访问统计"><a href="#网站访问统计" class="headerlink" title="网站访问统计"></a>网站访问统计</h3><p>找到”不蒜子统计”,把enable改为true<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">busuanzi_count:</span><br><span class="line">  # count values only if the other configs are false</span><br><span class="line">  enable: true</span><br><span class="line">  # custom uv span for the whole site</span><br><span class="line">  site_uv: true</span><br><span class="line">  site_uv_header: 本站访客数</span><br><span class="line">  site_uv_footer: 人次</span><br><span class="line">  # custom pv span for the whole site</span><br><span class="line">  site_pv: true</span><br><span class="line">  site_pv_header: 本站总访问量</span><br><span class="line">  site_pv_footer: 次</span><br><span class="line">  # custom pv span for one page only</span><br><span class="line">  page_pv: true</span><br><span class="line">  page_pv_header: 本文总阅读量</span><br><span class="line">  page_pv_footer: 次</span><br></pre></td></tr></table></figure></p>
+<h3 id="添加打赏功能"><a href="#添加打赏功能" class="headerlink" title="添加打赏功能"></a>添加打赏功能</h3><p>找到<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Reward</span></span><br><span class="line">reward_comment: 多谢打赏</span><br><span class="line">wechatpay: /images/wechatpay.jpg</span><br><span class="line">alipay: /images/alipay.jpg</span><br><span class="line"><span class="comment">#bitcoin: /images/bitcoin.png</span></span><br></pre></td></tr></table></figure></p>
+<p>把开头注释号#去掉，填写微信和支付宝的二维码图片地址即可。</p>
+<h3 id="订阅微信公众号"><a href="#订阅微信公众号" class="headerlink" title="订阅微信公众号"></a>订阅微信公众号</h3><p>找到<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">wechat_subscriber:</span><br><span class="line">  enabled: <span class="literal">true</span></span><br><span class="line">  qcode: /uploads/wechat-qcode.jpg</span><br><span class="line">  description: 欢迎您扫一扫上面的微信公众号，订阅我的博客！</span><br></pre></td></tr></table></figure></p>
+<p>把开头注释号#去掉,填写微信二维码图片地址即可。</p>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ol>
+<li><a href="https://linghucong.js.org/2016/04/15/2016-04-15-hexo-github-pages-blog/" rel="external nofollow noopener noreferrer" target="_blank">https://linghucong.js.org/2016/04/15/2016-04-15-hexo-github-pages-blog/</a></li>
+<li><a href="https://www.cnblogs.com/ayseeing/p/3572582.html" rel="external nofollow noopener noreferrer" target="_blank">https://www.cnblogs.com/ayseeing/p/3572582.html</a></li>
+<li><a href="https://hexo.io/zh-cn/docs/commands.html" rel="external nofollow noopener noreferrer" target="_blank">https://hexo.io/zh-cn/docs/commands.html</a></li>
+<li><a href="http://theme-next.iissnan.com/theme-settings.html" rel="external nofollow noopener noreferrer" target="_blank">http://theme-next.iissnan.com/theme-settings.html</a></li>
+<li><a href="https://xuanwo.org/2015/03/26/hexo-intor/" rel="external nofollow noopener noreferrer" target="_blank">https://xuanwo.org/2015/03/26/hexo-intor/</a></li>
+<li><a href="http://www.jianshu.com/p/834d7cc0668d" rel="external nofollow noopener noreferrer" target="_blank">http://www.jianshu.com/p/834d7cc0668d</a></li>
+</ol>
 
             </div>
         

@@ -2,4 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 
+    
+  <url>
+    <loc>https://paodingbujie.github.io/note/hexo/hexo_github_blog/</loc>
+    <lastmod>2017-12-09T20:12:22.340Z</lastmod>
+    <data>
+        <display>
+        <title>Hexo加GitHub快速搭建个人免费博客详细步骤</title>
+        <pubTime>2017-12-07T20:42:22.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+        <tag>GitHub</tag>
+         
+        <tag>博客</tag>
+         
+         
+           
+             
+              <breadCrumb title="hexo" url="https://paodingbujie.github.io/categories/hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
 </urlset>
