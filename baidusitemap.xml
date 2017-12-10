@@ -4,7 +4,7 @@
 
     
   <url>
-    <loc>https://paodingbujie.github.io/note/Hexo/hexo_github_blog/</loc>
+    <loc>https://paodingbujie.github.io/note/Hexo%E5%BB%BA%E7%AB%99/hexo_github_blog/</loc>
     <lastmod>2017-12-10T01:46:15.585Z</lastmod>
     <data>
         <display>
@@ -20,7 +20,7 @@
          
            
              
-              <breadCrumb title="Hexo" url="https://paodingbujie.github.io/categories/Hexo/"/>
+              <breadCrumb title="Hexo建站" url="https://paodingbujie.github.io/categories/Hexo%E5%BB%BA%E7%AB%99/"/>
           
         </display>
     </data>
@@ -28,7 +28,7 @@
 
     
   <url>
-    <loc>https://paodingbujie.github.io/note/Django/django_1/</loc>
+    <loc>https://paodingbujie.github.io/note/Django%E6%A1%86%E6%9E%B6/django_1/</loc>
     <lastmod>2017-12-09T22:57:03.920Z</lastmod>
     <data>
         <display>
@@ -40,7 +40,7 @@
          
            
              
-              <breadCrumb title="Django" url="https://paodingbujie.github.io/categories/Django/"/>
+              <breadCrumb title="Django框架" url="https://paodingbujie.github.io/categories/Django%E6%A1%86%E6%9E%B6/"/>
           
         </display>
     </data>

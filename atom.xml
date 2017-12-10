@@ -18,8 +18,8 @@
   
   <entry>
     <title>Web框架介绍</title>
-    <link href="https://paodingbujie.github.io/note/Django/django_1/"/>
-    <id>https://paodingbujie.github.io/note/Django/django_1/</id>
+    <link href="https://paodingbujie.github.io/note/Django%E6%A1%86%E6%9E%B6/django_1/"/>
+    <id>https://paodingbujie.github.io/note/Django框架/django_1/</id>
     <published>2017-12-09T22:32:40.000Z</published>
     <updated>2017-12-09T22:57:03.920Z</updated>
     
@@ -35,7 +35,7 @@
     
     </summary>
     
-      <category term="Django" scheme="https://paodingbujie.github.io/categories/Django/"/>
+      <category term="Django框架" scheme="https://paodingbujie.github.io/categories/Django%E6%A1%86%E6%9E%B6/"/>
     
     
       <category term="Web框架，Django，Python" scheme="https://paodingbujie.github.io/tags/Web%E6%A1%86%E6%9E%B6%EF%BC%8CDjango%EF%BC%8CPython/"/>
@@ -44,8 +44,8 @@
   
   <entry>
     <title>Hexo加GitHub快速搭建个人免费博客详细步骤</title>
-    <link href="https://paodingbujie.github.io/note/Hexo/hexo_github_blog/"/>
-    <id>https://paodingbujie.github.io/note/Hexo/hexo_github_blog/</id>
+    <link href="https://paodingbujie.github.io/note/Hexo%E5%BB%BA%E7%AB%99/hexo_github_blog/"/>
+    <id>https://paodingbujie.github.io/note/Hexo建站/hexo_github_blog/</id>
     <published>2017-12-07T20:42:22.000Z</published>
     <updated>2017-12-10T01:46:15.585Z</updated>
     
@@ -61,7 +61,7 @@
     
     </summary>
     
-      <category term="Hexo" scheme="https://paodingbujie.github.io/categories/Hexo/"/>
+      <category term="Hexo建站" scheme="https://paodingbujie.github.io/categories/Hexo%E5%BB%BA%E7%AB%99/"/>
     
     
       <category term="Hexo" scheme="https://paodingbujie.github.io/tags/Hexo/"/>
