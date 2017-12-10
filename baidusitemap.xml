@@ -4,8 +4,8 @@
 
     
   <url>
-    <loc>https://paodingbujie.github.io/note/hexo/hexo_github_blog/</loc>
-    <lastmod>2017-12-09T20:12:22.340Z</lastmod>
+    <loc>https://paodingbujie.github.io/note/Hexo/hexo_github_blog/</loc>
+    <lastmod>2017-12-10T01:40:09.536Z</lastmod>
     <data>
         <display>
         <title>Hexo加GitHub快速搭建个人免费博客详细步骤</title>
@@ -20,7 +20,27 @@
          
            
              
-              <breadCrumb title="hexo" url="https://paodingbujie.github.io/categories/hexo/"/>
+              <breadCrumb title="Hexo" url="https://paodingbujie.github.io/categories/Hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://paodingbujie.github.io/note/Django/django_1/</loc>
+    <lastmod>2017-12-09T22:57:03.920Z</lastmod>
+    <data>
+        <display>
+        <title>Web框架介绍</title>
+        <pubTime>2017-12-09T22:32:40.000Z</pubTime>
+        
+        <tag>Web框架，Django，Python</tag>
+         
+         
+           
+             
+              <breadCrumb title="Django" url="https://paodingbujie.github.io/categories/Django/"/>
           
         </display>
     </data>

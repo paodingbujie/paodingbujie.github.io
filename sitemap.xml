@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://paodingbujie.github.io/note/hexo/hexo_github_blog/</loc>
+    <loc>https://paodingbujie.github.io/note/Hexo/hexo_github_blog/</loc>
     
-    <lastmod>2017-12-09T20:12:22.340Z</lastmod>
+    <lastmod>2017-12-10T01:40:09.536Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://paodingbujie.github.io/note/Django/django_1/</loc>
+    
+    <lastmod>2017-12-09T22:57:03.920Z</lastmod>
     
   </url>
   
