@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>https://paodingbujie.github.io/note/Django%E6%A1%86%E6%9E%B6/django_1/</loc>
+    <lastmod>2017-12-11T18:56:38.434Z</lastmod>
+    <data>
+        <display>
+        <title>什么Web框架</title>
+        <pubTime>2017-12-09T22:32:40.000Z</pubTime>
+        
+        <tag>Web框架，Django，Python</tag>
+         
+         
+           
+             
+              <breadCrumb title="Django框架" url="https://paodingbujie.github.io/categories/Django%E6%A1%86%E6%9E%B6/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://paodingbujie.github.io/note/Hexo%E5%BB%BA%E7%AB%99/hexo_github_blog/</loc>
     <lastmod>2017-12-10T01:46:15.585Z</lastmod>
     <data>
@@ -21,26 +41,6 @@
            
              
               <breadCrumb title="Hexo建站" url="https://paodingbujie.github.io/categories/Hexo%E5%BB%BA%E7%AB%99/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://paodingbujie.github.io/note/Django%E6%A1%86%E6%9E%B6/django_1/</loc>
-    <lastmod>2017-12-09T22:57:03.920Z</lastmod>
-    <data>
-        <display>
-        <title>Web框架介绍</title>
-        <pubTime>2017-12-09T22:32:40.000Z</pubTime>
-        
-        <tag>Web框架，Django，Python</tag>
-         
-         
-           
-             
-              <breadCrumb title="Django框架" url="https://paodingbujie.github.io/categories/Django%E6%A1%86%E6%9E%B6/"/>
           
         </display>
     </data>
