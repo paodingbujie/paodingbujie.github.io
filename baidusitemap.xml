@@ -5,13 +5,19 @@
     
   <url>
     <loc>https://paodingbujie.github.io/note/Django%E6%A1%86%E6%9E%B6/django_1/</loc>
-    <lastmod>2017-12-11T19:09:05.377Z</lastmod>
+    <lastmod>2017-12-11T23:38:43.651Z</lastmod>
     <data>
         <display>
-        <title>什么Web框架</title>
+        <title>Web开发框架，Web服务器，应用服务器之间的关系</title>
         <pubTime>2017-12-09T22:32:40.000Z</pubTime>
         
-        <tag>Web框架，Django，Python</tag>
+        <tag>Web框架</tag>
+         
+        <tag>Web服务器</tag>
+         
+        <tag>应用服务器</tag>
+         
+        <tag>Django</tag>
          
          
            
