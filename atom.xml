@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://paodingbujie.github.io/"/>
-  <updated>2017-12-11T18:56:38.434Z</updated>
+  <updated>2017-12-11T19:03:03.105Z</updated>
   <id>https://paodingbujie.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://paodingbujie.github.io/note/Django%E6%A1%86%E6%9E%B6/django_1/"/>
     <id>https://paodingbujie.github.io/note/Django框架/django_1/</id>
     <published>2017-12-09T22:32:40.000Z</published>
-    <updated>2017-12-11T18:56:38.434Z</updated>
+    <updated>2017-12-11T19:03:03.105Z</updated>
     
-    <content type="html"><![CDATA[<p>再介绍Django框架之前，让我们先来了解一下什么是Web框架。</p><h2 id="访问Web资源的过程"><a href="#访问Web资源的过程" class="headerlink" title="访问Web资源的过程"></a>访问Web资源的过程</h2><p>我们访问Web资源一般都遵循<strong>“请求-应答”</strong>的方式。客户端在浏览器输入Web资源地址发送给服务端，服务端分析地址，返回客户端想要的资源，或者返回错误，比如资源未找到等。其实这个过程背后是客户端与服务端进行了报文的交互和解析。</p><p><img src="http://wx2.sinaimg.cn/mw690/0070SULVgy1fmdewcpeupj30sh09zq3i.jpg" alt=""></p><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><blockquote><ul><li><a href=""></a></li><li><a href=""></a></li></ul></blockquote>]]></content>
+    <content type="html"><![CDATA[<p>再介绍Django框架之前，让我们先来了解一下什么是Web框架。</p><h2 id="访问Web资源的过程"><a href="#访问Web资源的过程" class="headerlink" title="访问Web资源的过程"></a>访问Web资源的过程</h2><p>我们访问Web资源一般都遵循<strong>“请求-应答”</strong>的方式。客户端在浏览器输入Web资源地址发送给服务端，服务端分析地址，返回客户端想要的资源，或者返回错误，比如资源未找到等。其实这个过程背后是客户端与服务端进行了报文的交互和解析。</p><p><img src="http://wx2.sinaimg.cn/mw690/0070SULVgy1fmdf3bqo2wj30y50dfmy3.jpg" alt=""></p><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><blockquote><ul><li><a href=""></a></li><li><a href=""></a></li></ul></blockquote>]]></content>
     
     <summary type="html">
     
