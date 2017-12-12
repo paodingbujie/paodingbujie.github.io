@@ -6,25 +6,25 @@
     <title>Web开发框架，Web服务器，应用服务器之间的关系 | 庖哥频道</title>
     
     
-        <meta name="keywords" content="Django,Web框架,Web服务器,应用服务器">
+        <meta name="keywords" content="Web框架,Web服务器,应用服务器,Django">
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="再介绍Django框架之前，让我们先来了解一下什么是Web框架，Web服务器，应用服务器。 访问Web资源的过程我们访问Web资源一般都遵循“请求-应答”的方式。客户端在浏览器输入Web资源地址发送给服务端，服务端分析地址，返回客户端想要的资源，或者返回错误，比如404资源未找到等。其实这个过程背后是客户端与服务端进行">
-<meta name="keywords" content="Django,Web框架,Web服务器,应用服务器">
+    <meta name="description" content="在介绍Django框架之前，让我们先来了解一下什么是Web框架，Web服务器，应用服务器。 访问Web资源的过程我们访问Web资源一般都遵循“请求-应答”的方式。客户端在浏览器输入Web资源地址发送给服务端，服务端分析地址，返回客户端想要的资源，或者返回错误，比如404资源未找到等。其实这个过程背后是客户端与服务端进行">
+<meta name="keywords" content="Web框架,Web服务器,应用服务器,Django">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Web开发框架，Web服务器，应用服务器之间的关系">
 <meta property="og:url" content="https://paodingbujie.github.io/note/Django框架/django_1/index.html">
 <meta property="og:site_name" content="庖哥频道">
-<meta property="og:description" content="再介绍Django框架之前，让我们先来了解一下什么是Web框架，Web服务器，应用服务器。 访问Web资源的过程我们访问Web资源一般都遵循“请求-应答”的方式。客户端在浏览器输入Web资源地址发送给服务端，服务端分析地址，返回客户端想要的资源，或者返回错误，比如404资源未找到等。其实这个过程背后是客户端与服务端进行了报文的交互和解析。  我们来看一下http报文到底长什么样子，打开chrome">
-<meta property="og:locale" content="zh-Hans">
+<meta property="og:description" content="在介绍Django框架之前，让我们先来了解一下什么是Web框架，Web服务器，应用服务器。 访问Web资源的过程我们访问Web资源一般都遵循“请求-应答”的方式。客户端在浏览器输入Web资源地址发送给服务端，服务端分析地址，返回客户端想要的资源，或者返回错误，比如404资源未找到等。其实这个过程背后是客户端与服务端进行了报文的交互和解析。  我们来看一下http报文到底长什么样子，打开chrome">
+<meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http://wx2.sinaimg.cn/mw690/0070SULVgy1fmdft0n6iqj30wx0bjmyk.jpg">
 <meta property="og:image" content="http://wx3.sinaimg.cn/mw690/0070SULVgy1fmdh4ncn7dj30li0gyjtf.jpg">
 <meta property="og:image" content="http://wx3.sinaimg.cn/mw690/0070SULVgy1fmdj2nlc2zj313h0eadhn.jpg">
 <meta property="og:image" content="http://wx3.sinaimg.cn/mw690/0070SULVgy1fmdmw0x05zj31480jx0v7.jpg">
-<meta property="og:updated_time" content="2017-12-11T23:38:43.651Z">
+<meta property="og:updated_time" content="2017-12-12T04:56:47.352Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Web开发框架，Web服务器，应用服务器之间的关系">
-<meta name="twitter:description" content="再介绍Django框架之前，让我们先来了解一下什么是Web框架，Web服务器，应用服务器。 访问Web资源的过程我们访问Web资源一般都遵循“请求-应答”的方式。客户端在浏览器输入Web资源地址发送给服务端，服务端分析地址，返回客户端想要的资源，或者返回错误，比如404资源未找到等。其实这个过程背后是客户端与服务端进行了报文的交互和解析。  我们来看一下http报文到底长什么样子，打开chrome">
+<meta name="twitter:description" content="在介绍Django框架之前，让我们先来了解一下什么是Web框架，Web服务器，应用服务器。 访问Web资源的过程我们访问Web资源一般都遵循“请求-应答”的方式。客户端在浏览器输入Web资源地址发送给服务端，服务端分析地址，返回客户端想要的资源，或者返回错误，比如404资源未找到等。其实这个过程背后是客户端与服务端进行了报文的交互和解析。  我们来看一下http报文到底长什么样子，打开chrome">
 <meta name="twitter:image" content="http://wx2.sinaimg.cn/mw690/0070SULVgy1fmdft0n6iqj30wx0bjmyk.jpg">
     
 
@@ -105,14 +105,14 @@ var _hmt = _hmt || [];
             <div id="search-form-wrap">
 
     <form class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Cari">
+        <input type="text" class="ins-search-input search-form-input" placeholder="搜索">
         <button type="submit" class="search-form-submit"></button>
     </form>
     <div class="ins-search">
     <div class="ins-search-mask"></div>
     <div class="ins-search-container">
         <div class="ins-input-wrapper">
-            <input type="text" class="ins-search-input" placeholder="Type something...">
+            <input type="text" class="ins-search-input" placeholder="想要查找什么...">
             <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
         </div>
         <div class="ins-section-wrapper">
@@ -124,11 +124,11 @@ var _hmt = _hmt || [];
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: 'pos',
-            PAGES: 'Pages',
-            CATEGORIES: 'kategori',
-            TAGS: 'tag',
-            UNTITLED: '(Untitled)',
+            POSTS: '文章',
+            PAGES: '页面',
+            CATEGORIES: '分类',
+            TAGS: '标签',
+            UNTITLED: '(未命名)',
         },
         ROOT_URL: '/',
         CONTENT_URL: '/content.json',
@@ -158,7 +158,7 @@ var _hmt = _hmt || [];
                 <td>
                     
     <div class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Cari">
+        <input type="text" class="ins-search-input search-form-input" placeholder="搜索">
     </div>
 
                 </td>
@@ -175,7 +175,7 @@ var _hmt = _hmt || [];
         
     <div class="widget-wrap" id="categories">
         <h3 class="widget-title">
-            <span>kategori</span>
+            <span>分类</span>
             &nbsp;
             <a id="allExpand" href="#">
                 <i class="fa fa-angle-double-down fa-2x"></i>
@@ -191,7 +191,7 @@ var _hmt = _hmt || [];
                             &nbsp;
                             Django框架
                         </a>
-                         <ul class="unstyled" id="tree">  <li class="file"><a href="/note/Django框架/django_2/">Django开发框架简介</a></li>  <li class="file active"><a href="/note/Django框架/django_1/">Web开发框架，Web服务器，应用服务器之间的关系</a></li>  </ul> 
+                         <ul class="unstyled" id="tree">  <li class="file active"><a href="/note/Django框架/django_1/">Web开发框架，Web服务器，应用服务器之间的关系</a></li>  <li class="file"><a href="/note/Django框架/django_2/">Django开发框架简介</a></li>  </ul> 
                     </li> 
                     
                     <li class="directory">
@@ -320,13 +320,13 @@ var _hmt = _hmt || [];
         
             
                 <div id="toc" class="toc-article">
-                <strong class="toc-title">Catálogo</strong>
+                <strong class="toc-title">文章目录</strong>
                     <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#访问Web资源的过程"><span class="toc-number">1.</span> <span class="toc-text">访问Web资源的过程</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Web服务器和应用服务器的区别"><span class="toc-number">2.</span> <span class="toc-text">Web服务器和应用服务器的区别</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Web开发框架和应用服务器"><span class="toc-number">3.</span> <span class="toc-text">Web开发框架和应用服务器</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#参考资料"><span class="toc-number">4.</span> <span class="toc-text">参考资料</span></a></li></ol>
                 </div>
             
         
         
-            <p>再介绍Django框架之前，让我们先来了解一下什么是Web框架，Web服务器，应用服务器。</p>
+            <p>在介绍Django框架之前，让我们先来了解一下什么是Web框架，Web服务器，应用服务器。</p>
 <h2 id="访问Web资源的过程"><a href="#访问Web资源的过程" class="headerlink" title="访问Web资源的过程"></a>访问Web资源的过程</h2><p>我们访问Web资源一般都遵循<strong>“请求-应答”</strong>的方式。客户端在浏览器输入Web资源地址发送给服务端，服务端分析地址，返回客户端想要的资源，或者返回错误，比如404资源未找到等。其实这个过程背后是客户端与服务端进行了报文的交互和解析。</p>
 <p><img src="http://wx2.sinaimg.cn/mw690/0070SULVgy1fmdft0n6iqj30wx0bjmyk.jpg" alt=""></p>
 <p>我们来看一下http报文到底长什么样子，打开chrome浏览器，F12打开开发者工具,地址栏中输入网易地址，得到如下图结果。</p>
@@ -360,7 +360,7 @@ var _hmt = _hmt || [];
 <nav id="article-nav">
     
         <a href="/note/Django框架/django_2/" id="article-nav-newer" class="article-nav-link-wrap">
-            <strong class="article-nav-caption">Lebih baru</strong>
+            <strong class="article-nav-caption">上一篇</strong>
             <div class="article-nav-title">
                 
                     Django开发框架简介
@@ -370,7 +370,7 @@ var _hmt = _hmt || [];
     
     
         <a href="/note/Hexo建站/hexo_github_blog/" id="article-nav-older" class="article-nav-link-wrap">
-            <strong class="article-nav-caption">Lebih Tua</strong>
+            <strong class="article-nav-caption">下一篇</strong>
             <div class="article-nav-title">Hexo加GitHub快速搭建个人免费博客详细步骤</div>
         </a>
     

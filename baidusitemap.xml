@@ -4,13 +4,19 @@
 
     
   <url>
-    <loc>https://paodingbujie.github.io/note/Django%E6%A1%86%E6%9E%B6/django_2/</loc>
-    <lastmod>2017-12-12T03:16:32.516Z</lastmod>
+    <loc>https://paodingbujie.github.io/note/Django%E6%A1%86%E6%9E%B6/django_1/</loc>
+    <lastmod>2017-12-12T04:56:47.352Z</lastmod>
     <data>
         <display>
-        <title>Django开发框架简介</title>
-        <pubTime>2017-12-10T01:14:20.000Z</pubTime>
+        <title>Web开发框架，Web服务器，应用服务器之间的关系</title>
+        <pubTime>2017-12-09T22:32:40.000Z</pubTime>
         
+        <tag>Web框架</tag>
+         
+        <tag>Web服务器</tag>
+         
+        <tag>应用服务器</tag>
+         
         <tag>Django</tag>
          
          
@@ -25,20 +31,14 @@
     
     
   <url>
-    <loc>https://paodingbujie.github.io/note/Django%E6%A1%86%E6%9E%B6/django_1/</loc>
-    <lastmod>2017-12-11T23:38:43.651Z</lastmod>
+    <loc>https://paodingbujie.github.io/note/Django%E6%A1%86%E6%9E%B6/django_2/</loc>
+    <lastmod>2017-12-12T03:16:32.516Z</lastmod>
     <data>
         <display>
-        <title>Web开发框架，Web服务器，应用服务器之间的关系</title>
-        <pubTime>2017-12-09T22:32:40.000Z</pubTime>
+        <title>Django开发框架简介</title>
+        <pubTime>2017-12-10T01:14:20.000Z</pubTime>
         
         <tag>Django</tag>
-         
-        <tag>Web框架</tag>
-         
-        <tag>Web服务器</tag>
-         
-        <tag>应用服务器</tag>
          
          
            
