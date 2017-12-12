@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://paodingbujie.github.io/"/>
-  <updated>2017-12-11T23:38:43.651Z</updated>
+  <updated>2017-12-12T03:16:32.516Z</updated>
   <id>https://paodingbujie.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Django开发框架简介</title>
+    <link href="https://paodingbujie.github.io/note/Django%E6%A1%86%E6%9E%B6/django_2/"/>
+    <id>https://paodingbujie.github.io/note/Django框架/django_2/</id>
+    <published>2017-12-10T01:14:20.000Z</published>
+    <updated>2017-12-12T03:16:32.516Z</updated>
+    
+    <content type="html"><![CDATA[<p>Django是一个用Python开发的Web框架，。</p><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><blockquote><ul><li></li><li></li></ul></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Django是一个用Python开发的Web框架，。&lt;/p&gt;
+&lt;h2 id=&quot;参考资料&quot;&gt;&lt;a href=&quot;#参考资料&quot; class=&quot;headerlink&quot; title=&quot;参考资料&quot;&gt;&lt;/a&gt;参考资料&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li
+      
+    
+    </summary>
+    
+      <category term="Django框架" scheme="https://paodingbujie.github.io/categories/Django%E6%A1%86%E6%9E%B6/"/>
+    
+    
+      <category term="Django" scheme="https://paodingbujie.github.io/tags/Django/"/>
+    
+  </entry>
   
   <entry>
     <title>Web开发框架，Web服务器，应用服务器之间的关系</title>
@@ -38,13 +67,13 @@
       <category term="Django框架" scheme="https://paodingbujie.github.io/categories/Django%E6%A1%86%E6%9E%B6/"/>
     
     
+      <category term="Django" scheme="https://paodingbujie.github.io/tags/Django/"/>
+    
       <category term="Web框架" scheme="https://paodingbujie.github.io/tags/Web%E6%A1%86%E6%9E%B6/"/>
     
       <category term="Web服务器" scheme="https://paodingbujie.github.io/tags/Web%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
       <category term="应用服务器" scheme="https://paodingbujie.github.io/tags/%E5%BA%94%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
-    
-      <category term="Django" scheme="https://paodingbujie.github.io/tags/Django/"/>
     
   </entry>
   

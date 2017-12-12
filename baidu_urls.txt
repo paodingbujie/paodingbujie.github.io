@@ -1,2 +1,3 @@
+https://paodingbujie.github.io/note/Django框架/django_2/
 https://paodingbujie.github.io/note/Django框架/django_1/
 https://paodingbujie.github.io/note/Hexo建站/hexo_github_blog/
