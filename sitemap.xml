@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://paodingbujie.github.io/note/Django%E6%A1%86%E6%9E%B6/django_1/</loc>
+    <loc>https://paodingbujie.github.io/note/Django2.0%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/django_3/</loc>
     
-    <lastmod>2017-12-12T04:56:47.352Z</lastmod>
+    <lastmod>2017-12-13T05:33:02.864Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://paodingbujie.github.io/note/Django2.0%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/django_2/</loc>
+    
+    <lastmod>2017-12-13T05:32:38.438Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://paodingbujie.github.io/note/Django2.0%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/django_1/</loc>
+    
+    <lastmod>2017-12-13T05:31:56.726Z</lastmod>
     
   </url>
   
@@ -12,13 +26,6 @@
     <loc>https://paodingbujie.github.io/about/index.html</loc>
     
     <lastmod>2017-12-12T03:17:12.388Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://paodingbujie.github.io/note/Django%E6%A1%86%E6%9E%B6/django_2/</loc>
-    
-    <lastmod>2017-12-12T03:16:32.516Z</lastmod>
     
   </url>
   

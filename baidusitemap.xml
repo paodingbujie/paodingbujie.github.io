@@ -4,11 +4,55 @@
 
     
   <url>
-    <loc>https://paodingbujie.github.io/note/Django%E6%A1%86%E6%9E%B6/django_1/</loc>
-    <lastmod>2017-12-12T04:56:47.352Z</lastmod>
+    <loc>https://paodingbujie.github.io/note/Django2.0%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/django_3/</loc>
+    <lastmod>2017-12-13T05:33:02.864Z</lastmod>
     <data>
         <display>
-        <title>Web开发框架，Web服务器，应用服务器之间的关系</title>
+        <title>Django2.0自学笔记(3) 开发环境搭建</title>
+        <pubTime>2017-12-10T17:23:33.000Z</pubTime>
+        
+        <tag>Django，开发环境</tag>
+         
+         
+           
+             
+              <breadCrumb title="Django2.0自学笔记" url="https://paodingbujie.github.io/categories/Django2-0%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://paodingbujie.github.io/note/Django2.0%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/django_2/</loc>
+    <lastmod>2017-12-13T05:32:38.438Z</lastmod>
+    <data>
+        <display>
+        <title>Django2.0自学笔记(2) Django开发框架简介与自学流程</title>
+        <pubTime>2017-12-10T01:14:20.000Z</pubTime>
+        
+        <tag>Django</tag>
+         
+        <tag>自学</tag>
+         
+        <tag>流程</tag>
+         
+         
+           
+             
+              <breadCrumb title="Django2.0自学笔记" url="https://paodingbujie.github.io/categories/Django2-0%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://paodingbujie.github.io/note/Django2.0%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/django_1/</loc>
+    <lastmod>2017-12-13T05:31:56.726Z</lastmod>
+    <data>
+        <display>
+        <title>Django2.0自学笔记(1) Web开发框架，Web服务器，应用服务器之间的关系</title>
         <pubTime>2017-12-09T22:32:40.000Z</pubTime>
         
         <tag>Web框架</tag>
@@ -22,33 +66,13 @@
          
            
              
-              <breadCrumb title="Django框架" url="https://paodingbujie.github.io/categories/Django%E6%A1%86%E6%9E%B6/"/>
+              <breadCrumb title="Django2.0自学笔记" url="https://paodingbujie.github.io/categories/Django2-0%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/"/>
           
         </display>
     </data>
     </url>
 
     
-    
-  <url>
-    <loc>https://paodingbujie.github.io/note/Django%E6%A1%86%E6%9E%B6/django_2/</loc>
-    <lastmod>2017-12-12T03:16:32.516Z</lastmod>
-    <data>
-        <display>
-        <title>Django开发框架简介</title>
-        <pubTime>2017-12-10T01:14:20.000Z</pubTime>
-        
-        <tag>Django</tag>
-         
-         
-           
-             
-              <breadCrumb title="Django框架" url="https://paodingbujie.github.io/categories/Django%E6%A1%86%E6%9E%B6/"/>
-          
-        </display>
-    </data>
-    </url>
-
     
   <url>
     <loc>https://paodingbujie.github.io/note/Hexo%E5%BB%BA%E7%AB%99/hexo_github_blog/</loc>
