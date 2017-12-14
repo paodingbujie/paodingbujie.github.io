@@ -4,8 +4,28 @@
 
     
   <url>
+    <loc>https://paodingbujie.github.io/note/Django2.0%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/django_4/</loc>
+    <lastmod>2017-12-14T18:08:15.520Z</lastmod>
+    <data>
+        <display>
+        <title>Django2.0自学笔记(4) 新建站点和博客应用</title>
+        <pubTime>2017-12-10T17:23:33.000Z</pubTime>
+        
+        <tag>Django，新建，站点，应用</tag>
+         
+         
+           
+             
+              <breadCrumb title="Django2.0自学笔记" url="https://paodingbujie.github.io/categories/Django2-0%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://paodingbujie.github.io/note/Django2.0%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/django_3/</loc>
-    <lastmod>2017-12-13T05:33:02.864Z</lastmod>
+    <lastmod>2017-12-14T05:30:29.678Z</lastmod>
     <data>
         <display>
         <title>Django2.0自学笔记(3) 开发环境搭建</title>
@@ -25,7 +45,7 @@
     
   <url>
     <loc>https://paodingbujie.github.io/note/Django2.0%E8%87%AA%E5%AD%A6%E7%AC%94%E8%AE%B0/django_2/</loc>
-    <lastmod>2017-12-13T05:32:38.438Z</lastmod>
+    <lastmod>2017-12-13T21:16:59.395Z</lastmod>
     <data>
         <display>
         <title>Django2.0自学笔记(2) Django开发框架简介与自学流程</title>
